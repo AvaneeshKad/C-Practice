@@ -2,7 +2,8 @@
 #include <string>
 using namespace std;
 
-int main() {
+int main()
+{
     string name;
     cout << "Write name of favorite super-hero : ";
     cin >> name;
