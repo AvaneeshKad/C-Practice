@@ -12,5 +12,11 @@ int main()
     cout << *itEnd << "\n";
     auto zeroFind = mySet.find(0);
     cout << &zeroFind << "\n";
-    return 0;
+
+    // printing the actual set after going the operations on it
+
+    for (int x : mySet) {
+        cout << x << " ";
+    }
+    cout << "\n";
 }
