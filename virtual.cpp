@@ -1,12 +1,12 @@
 #include <iostream>
-- using namespace std;
+using namespace std;
 
 class Animal {
 public:
-    // This is EARLY BINDING because it is not virtual [cite: 5, 8]
+    // Early binding 
     void speak() { cout << "Generic Animal Sound" << endl; }
 
-    // This is LATE BINDING because of the 'virtual' keyword [cite: 5, 8]
+    // late binding
     virtual void move() { cout << "Animal moves" << endl; }
 };
 
